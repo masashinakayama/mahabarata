@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*  共通のCSS  */
+
+/* resetのcss */
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+    }
+
+
+
+/*  font-sizeの指定  */
+
+html {
+    /* ルートのフォントサイズを10pxに設定しておく */
+	font-size: 62.5%;
+}
+
+body {
+	/* ルートのフォントサイズを1.6em（16pxと同等のサイズ）に設定 */
+    /* chormだとバグを起こすからemで指定する。 */
+    font-size: 1.6em;
+	color: #333333;
+	font-family: Hiragino Kaku Gothic ProN W3, sans-serif;
+	background-image: url(../img/back.png);
+	background-attachment: fixed;
+
+}
+
+.wrap {
+	overflow-x: hidden;
+}
+
+
+
+.inner {
+	padding: 0 12px;
+}
+.title {
+	font-family: "Futura-CondensedMedium", Futura, sans-serif;
+	font-stretch: condensed;
+	
+    font-weight: 300;
+	font-size: 4.3rem;
+	color: #301F1B;
+}
+
+.txtxl {
+	/* 34px */
+	font-size: 3.4rem;
+	font-weight: 600;
+}
+
+.txtl {
+	/* 22px */
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+
+.txtm {
+	/* 18px */
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.txts {
+	/* 14px */
+	font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.txtxs {
+	/* 12px */
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+
+
+/*  ここまでが共通のcss */
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+
+/*  パンくず  */
+
+.breadcrumbs {
+	width: 810px;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 7px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-size: 1.6rem;
+	}
+	
+	.main-story .inner .breadcrumbs span {
+	color: white;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ページネーション */
+
+.current {
+	background-color: #1a1a1a;
+	color: #F4D102;
+	}
+.page-numbers {
+	padding: 5.4px 7.6px;
+	border: 2px solid #1a1a1a;
+	margin-right: 4px;
+}
+
+.next {
+	border: 2px solid #1a1a1a;
+	color: #1a1a1a;
+}
+.prev {
+	border: 2px solid #1a1a1a;
+	color: #1a1a1a;
+}
+
+
+
+
+
+
+
+
+/*   YouTube  */
+
+.youtube {
+	width: 858px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 24px;
+    margin-bottom: 30px;
+}
+
+.Box {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+  }
+  .Box iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }

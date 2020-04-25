@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="マハーバラータの模写を制作しました。">
+  <title>マハーバラータ</title>
+
+
+     <!-- jsのcssを読み込む -->
+     <link rel="stylesheet" href="./css/animate.css">
+
+
+<!-- drawer.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+<!-- jquery & iScroll -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+
+
+  <!-- cssの読み込み -->
+    <link rel="stylesheet" type="text/css" href="./css/common.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./css/pc.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./css/tab.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./css/sp.css" media="all">
+
+
+</head>
+
+<body class="drawer drawer--right">
+
+  <!-- header -->
+
+<header class="pc">
+  <div class="inner">
+
+    <div class="header-list">
+      <a href=""><p class="txtxs">トップ</p>
+      <p class="txtl">TOP</p></a>
+    </div>
+    <div class="header-list">
+      <a href=""><p class="txtxs">ニュース</p>
+      <p class="txtl">NEWS</p></a>
+    </div>
+    <div class="header-list">
+      <a href=""><p class="txtxs">ストーリー</p>
+      <p class="txtl">STORY</p></a>
+    </div>
+    <div class="header-list">
+      <a href=""><p class="txtxs">著名人コメント</p>
+      <p class="txtl">COMMENTS</p></a>
+    </div>
+    <div class="header-list">
+      <a href=""><p class="txtxs">キャスト</p>
+      <p class="txtl">CAST</p></a>
+    </div>
+    <div class="header-list">
+      <a href=""><p class="txtxs">問い合わせ</p>
+      <p class="txtl">INQUIRY</p></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+<header role="banner" class="sp">
+  <!-- ハンバーガーボタン -->
+  <button type="button" class="drawer-toggle drawer-hamburger">
+      
+      <!-- 中身は自由 -->
+    <span class="sr-only">toggle navigation</span>
+    <span class="drawer-hamburger-icon"></span>
+  </button>
+  <!-- ナビゲーションの中身 -->
+  <nav class="drawer-nav" role="navigation">
+    <ul class="drawer-menu">
+      <li><a class="drawer-menu-item" href="top">TOP</a></li>
+      <li><a class="drawer-menu-item" href="news">NEWS</a></li>
+      <li><a class="drawer-menu-item" href="story">STORY</a></li>
+      <li><a class="drawer-menu-item" href="comments">COMMENTS</a></li>
+      <li><a class="drawer-menu-item" href="cast">CAST</a></li>
+      <li><a class="drawer-menu-item" href="inquiry">INQUIRY</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+
+
+
+<!-- main -->
+
+<section class="main-archive">
+  <div class="inner">
+     <img src="<?php echo get_template_directory_uri() ?>/img/main1.png" alt="メインのタイトル" class="img1">
+    <img src="<?php echo get_template_directory_uri() ?>/img/main2.png" alt="メインのサブタイトル" class="img2">
+    <div class="main-btn"><a href=""><p class="txts">チケット予約サイトへ</p></a></div>
+  </div>
+</section>
+  
+
+<!-- パンくず -->
+
+<div class="pankuzu">
+    <p class="txtxs ac">ホーム</p>
+    <p class="txtxs">キャスト</p>
+</div>
+
+
+<h2 class="cast-single-title title">CAST</h2>
+
+
+
+
+<!-- cast-single -->
+
+<section class="cast-single">
+    <div class="inner">
+    
+    
+      <div class="casters">
+    
+        <div class="caster">
+          <img src="<?php echo get_template_directory_uri() ?>/img/cast1.png" alt="キャストの顔写真">
+           <div class="cast-menu1">
+              <p class="p1">作・演出・振付・構成</p>
+              <p class="txtm p2">小池博史</p>
+           </div>
+          <p class="txtxs cast-content">茨城県日立市出身。一橋大学卒業。<br>
+            演出家・作家・振付家・舞台美術家・写真家、舞台芸術の学校（P.A.I.）校長。<br>
+            1982年「パパ・タラフマラ」設立。<br>
+            演劇、舞踊、オペラ、美術、建築等、ジャンルを縦横に渡りながら空間を築き上げてゆく手法で、国際的に高い評価を確立。<br>
+            3.11を受けて、翌2012年5月にパパ・タラフマラ解散。すぐに「小池博史ブリッジプロジェクト」を立ち上げ、作品を創作しながら、若手表現者の育成と芸術文化事業のプロデュースを手掛けるなど、活動は多岐に渡る。<br>
+            著書に「ロンググッドバイ～パパ・タラフマラとその時代」（青幻舎刊）、「からだのこえをきく」（新潮社刊）等。</p>
+        </div>
+    
+    
+        <div class="caster">
+          <img src="<?php echo get_template_directory_uri() ?>/img/cast2.png" alt="キャストの顔写真">
+          <div class="cast-menu2">
+              <p class="p1">出演</p>
+              <p class="txtm p2">白井さち子</p>
+              <p class="txtxs p3">(バレエ、コンテンポラリーダンス)</p>
+          </div>
+            <p class="txtxs cast-content">7歳よりクラシックバレエを始める。<br>
+               82年より6年間橘バレエ学校に在籍。<br>
+               牧阿佐美に師事。<br>
+               日本女子体育短期大学舞踊コース卒。<br>
+               在籍中、太田順造にパントマイムを師事。<br>
+               89年よりパパ・タラフマラに参加。<br>
+               以降国内外の公演に出演。<br>
+               後身のパフォーマーのダンス指導にもあっている。<br>
+               パパ・タラフマラ作品「シンデレラ」においてシンデレラ役、「三人姉妹」次女役、「パパ・タラフマラの白雪姫」継母役などを好演。<br>
+               これまで約35カ国での公演に参加、そのパフォーマンスは世界各地で認められ、高く評価されている。<br></p>
+        </div>
+      
+    
+        <div class="caster">
+          <img src="<?php echo get_template_directory_uri() ?>/img/cast3.png" alt="キャストの顔写真">
+           <div class="cast-menu3">
+              <p class="p1">出演</p>
+              <p class="txtm p2">小谷野哲郎</p>
+              <p class="txtxs p3">(バリ舞踏)</p>
+          </div>
+          <p class="txtxs cast-content">東海大学音楽学課程在学中よりサウンドスケープ研究の傍らバリ舞踊を始める。<br>
+            1995年よりインドネシア政府給費留学生としてインドネシア国立芸術高等学院に留学。<br>
+            学外でも現代バリ舞踊界最高の舞踊家達に師事し、舞踊技術と同時に精神的哲学的影響も強く受ける。<br>
+            2006年、Asian Cultural Councilの助成によりアメリカに滞在。<br>
+            パパ・タラフマラ作品では「ガリバー＆スウィフト」「パンク・ドンキホーテ」「白雪姫」に、小池博史ブリッジプロジェクトでは「注文の多い料理店」「風の又三郎」に出演。</p>
+        </div>
+      </div>
+    
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- cast-center -->
+
+<section class="cast-center">
+<div class="inner">
+  <div class="cast-center-box">
+      <div class="cast-center-img">
+          <img src="<?php echo get_template_directory_uri() ?>/img/face.png" alt="顔写真" width="130" height="130">
+      </div>
+      <div class="cast-center-content">
+         <p class="cast-txt">出演</p>
+         <p class="txtl">白井さち子</p>
+         <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+         <p class="txtxs">7歳よりクラシックバレエを始める。<br>
+            82年より6年間橘バレエ学校に在籍。<br>
+            牧阿佐美に師事。<br>
+            日本女子体育短期大学舞踊コース卒。<br>
+            在籍中、太田順造にパントマイムを師事。</p>
+      </div>
+  </div>
+  <div class="cast-center-box">
+      <div class="cast-center-img">
+          <img src="<?php echo get_template_directory_uri() ?>/img/face.png" alt="顔写真" width="130" height="130">
+      </div>
+      <div class="cast-center-content">
+         <p class="cast-txt">出演</p>
+         <p class="txtl">白井さち子</p>
+         <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+         <p class="txtxs">7歳よりクラシックバレエを始める。<br>
+            82年より6年間橘バレエ学校に在籍。<br>
+            牧阿佐美に師事。<br>
+            日本女子体育短期大学舞踊コース卒。<br>
+            在籍中、太田順造にパントマイムを師事。</p>
+      </div>
+  </div>
+  <div class="cast-center-box mb">
+      <div class="cast-center-img">
+          <img src="<?php echo get_template_directory_uri() ?>/img/face.png" alt="顔写真" width="130" height="130">
+      </div>
+      <div class="cast-center-content">
+         <p class="cast-txt">出演</p>
+         <p class="txtl">白井さち子</p>
+         <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+         <p class="txtxs">7歳よりクラシックバレエを始める。<br>
+            82年より6年間橘バレエ学校に在籍。<br>
+            牧阿佐美に師事。<br>
+            日本女子体育短期大学舞踊コース卒。<br>
+            在籍中、太田順造にパントマイムを師事。</p>
+      </div>
+  </div>
+  <div class="cast-center-box mb">
+      <div class="cast-center-img">
+          <img src="<?php echo get_template_directory_uri() ?>/img/face.png" alt="顔写真" width="130" height="130">
+      </div>
+      <div class="cast-center-content">
+         <p class="cast-txt">出演</p>
+         <p class="txtl">白井さち子</p>
+         <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+         <p class="txtxs">7歳よりクラシックバレエを始める。<br>
+            82年より6年間橘バレエ学校に在籍。<br>
+            牧阿佐美に師事。<br>
+            日本女子体育短期大学舞踊コース卒。<br>
+            在籍中、太田順造にパントマイムを師事。</p>
+      </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- cast-bottom -->
+
+<section class="cast-bottom">
+<div class="inner">
+    <div class="cast-bottom-box">
+        <p>作・演出・振付・構成</p>
+        <p class="txtl">小池博史</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>出演</p>
+        <p class="txtl">白井さち子</p>
+        <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>出演</p>
+        <p class="txtl">小谷野哲郎</p>
+        <p class="txtxs">(バリ舞踏)</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>作・演出・振付・構成</p>
+        <p class="txtl">小池博史</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>出演</p>
+        <p class="txtl">白井さち子</p>
+        <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>出演</p>
+        <p class="txtl">小谷野哲郎</p>
+        <p class="txtxs">(バリ舞踏)</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>作・演出・振付・構成</p>
+        <p class="txtl">小池博史</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>出演</p>
+        <p class="txtl">白井さち子</p>
+        <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+    </div>
+    <div class="cast-bottom-box">
+        <p>出演</p>
+        <p class="txtl">小谷野哲郎</p>
+        <p class="txtxs">(バリ舞踏)</p>
+    </div>
+    <div class="cast-bottom-box mb">
+        <p>作・演出・振付・構成</p>
+        <p class="txtl">小池博史</p>
+    </div>
+    <div class="cast-bottom-box mb">
+        <p>出演</p>
+        <p class="txtl">白井さち子</p>
+        <p class="txtxs">(バレエ、コンテンポラリーダンス)</p>
+    </div>
+    <div class="cast-bottom-box mb">
+        <p>出演</p>
+        <p class="txtl">小谷野哲郎</p>
+        <p class="txtxs">(バリ舞踏)</p>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- schedule -->
+
+<section class="schedule">
+  <div class="inner">
+    <div class="schedule-top">
+       <h2 class="title">SCHEDULE</h2>
+          <p><span class="date">2020.07.04</span><span class="time">17:00開演</span><span class="prace">中野ZERO大ホール</span><span class="ticket">チケット予約受付中</span></p>
+          <p><span class="date">2020.07.05</span><span class="time">17:00開演</span><span class="prace">中野ZERO大ホール</span><span class="ticket">チケット予約受付中</span></p>
+          <p><span class="date">2020.07.06</span><span class="time">17:00開演</span><span class="prace">中野ZERO大ホール</span><span class="ticket">チケット予約受付中</span></p>
+          <p><span class="date">2020.07.07</span><span class="time">17:00開演</span><span class="prace">中野ZERO大ホール</span><span class="ticket">チケット予約受付中</span></p>
+
+    </div>
+    <div class="schedule-bottom">
+      <div class="schedule-btn1"><a href="">お問い合わせはこちら</a></div>
+      <div class="schedule-btn2"><a href="">チケット予約サイトへ</a></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+<section class="footer">
+  <div class="inner">
+    <p class="txtxs">Copyright © 2019 完全版マハーバーラタ All Rights Reserved.</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ライブラリからのファイル -->
+<script src="js/wow.min.js"></script>
+
+<!-- other.js -->
+<script src="js/wow.js"></script>
+<script src="js/drawer.js"></script>
+<script src="js/scroll.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
